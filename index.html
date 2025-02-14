@@ -44,38 +44,30 @@
             <ul id="repo-list"></ul>
         </div>
     </section>
-    <section id="learning-journey">
-        <h2>Continuous Learning Journey</h2>
-        <p>Here, I document what I learn regularly. I update this section frequently to track my progress.</p>
-        
-        <div class="learning-entry">
-            <h3>📅 Date: <span>2025-01-10</span></h3>
-            <h4>🔖 Topic: <span>Revising Python Basics</span></h4>
-            <p>📝 Description: A brief summary of what you learned or practiced.</p>
-        </div>
-        <div class="learning-entry">
-            <h3>📅 Date: <span>2025-01-10</span></h3>
-            <h4>🔖 Topic: <span>Learned How to Write MArkdowns(.md)</span></h4>
-            <p>📝 Description: A brief summary of what you learned or practiced.</p>
-        </div>
-        <div class="learning-entry">
-            <h3>📅 Date: <span>2025-01-10</span></h3>
-            <h4>🔖 Topic: <span>Created Page to Publish In Github Pages</span></h4>
-            <p>📝 Description: A brief summary of what you learned or practiced.</p>
-        </div>
-    
-        <!-- Copy & paste the above .learning-entry div to add more entries over time -->
-    </section>
     <section class="github">
         <div class="container">
             <h2>GitHub Contributions</h2>
-            <img src="https://ghchart.rshah.org/3498db/sameer-at-git" alt="GitHub Contribution Chart" class="github-chart">
+            <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sameer-at-git&theme=github_dark" alt="GitHub Contribution Chart" class="github-chart">
+        </div>
+    </section>
+    <section id="learning-journey">
+        <h2>Continuous Learning Journey</h2>
+        <p>Here, I document what I learn regularly. I update this section frequently to track my progress.</p>
+        <div id="entries-container">
+            <!-- Entries will be loaded here -->
         </div>
     </section>
    
     <footer>
         <p>Made with ❤️ by Sameer Sayed</p>
     </footer>
+    <div id="journal-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-content-container"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
