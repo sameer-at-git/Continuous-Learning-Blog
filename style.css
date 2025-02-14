@@ -301,13 +301,26 @@ footer {
 #modal-content-container {
     color: #333;
     line-height: 1.6;
+    text-align: left;
 }
 
 #modal-content-container img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin: 15px 0;
+    margin: 15px auto;
+    display: block;
+}
+
+#modal-content-container h2,
+#modal-content-container h3 {
+    text-align: left;
+}
+
+#modal-content-container p,
+#modal-content-container ul,
+#modal-content-container ol {
+    text-align: left;
 }
 
 .entry-header {
